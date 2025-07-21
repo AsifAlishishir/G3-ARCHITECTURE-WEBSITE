@@ -1,0 +1,128 @@
+/* SHARED STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 144, 14, 1);
+
+}
+/* NAV STYLES */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto 140px auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgba(19, 19, 19, 1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+}
+
+/* BANNER STYLES */
+
+.banner-container {
+    max-width: 1440px;
+    margin: 0 auto 100px auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgba(19, 19, 19, 1);
+    margin-bottom: 15px;
+}
+
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(114, 114, 114, 1);
+    margin-bottom: 32px;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+/* QUICK LIST STYLES */
+
+.quick-list{
+    max-width: 1440px;
+    margin: 0 auto 130px auto;
+    display: flex;
+    gap: 4.56rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.quick-list-content{
+    max-width: 537px;
+}
+
+.quick-list-content h1{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+
+.quick-list-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-bottom: 32px;
+    color: rgba(114, 114, 114, 1);
+}
