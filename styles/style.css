@@ -126,3 +126,116 @@ ul li a {
     margin-bottom: 32px;
     color: rgba(114, 114, 114, 1);
 }
+
+/* FACTS STYLES */
+
+.facts{
+    max-width: 1440px;
+    margin: 0 auto 180px auto;
+}
+
+.fact-content{
+    max-width: 542px;
+    margin-bottom: 100px;
+}
+
+.fact-content h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.fact-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: rgba(114, 114, 114, 1);
+}
+
+.fact-card-container{
+    max-width: 1340px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 120px;
+}
+
+.fact-card-content{
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    padding: 50px 35px;
+    text-align: center;
+}
+
+.fact-card-content img{
+    margin-bottom: 10px;
+}
+
+.fact-card-content h4{
+    margin-bottom: 5px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgba(66, 66, 66, 1);
+}
+
+.fact-card-content p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(114, 114, 114, 1);
+}
+
+/* SPONSORS STYLES */
+
+.sponsors{
+    max-width: 1440px;
+    margin: 0 auto 130px auto;
+}
+
+.sponsors-content{
+    max-width: 542px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.sponsors-content h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: rgba(19, 19, 19, 1);
+}
+
+.sponsors-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: rgba(114, 114, 114, 1);
+}
+
+.sponsors-image{
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 150px;
+}
+
+.sponsors-image img{
+    filter: grayscale(100%);
+}
+
+/* FOOTER STYLES */
+
+.footer-content{
+    background-color: rgba(255, 244, 231, 1);
+    max-width: 1440px;
+    margin: 0 auto 220px auto;
+    border-radius: 8px;
+}
+
+.footer-content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 40px 400px;
+    color: rgba(66, 66, 66, 1);
+}
