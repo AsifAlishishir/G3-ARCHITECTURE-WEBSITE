@@ -420,3 +420,83 @@ ul li a {
         display: none;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    
+    nav {
+        margin: 0 20px 100px 20px;
+    }
+
+    nav h1 {
+        font-size: 2.4rem;
+    }
+
+    nav ul {
+        gap: 30px;
+    }
+
+    .banner-container {
+        margin: 0 20px 100px 20px;
+    }
+
+    .banner-content h1 {
+        font-size: 3.1rem;
+    }
+
+    
+    .banner-content p {
+        font-size: .9rem;
+    }
+
+    .quick-list {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .quick-list-content {
+        text-align: center;
+    }
+
+    .quick-list-images {
+        gap: 16px;
+    }
+
+    .fact-content {
+        text-align: center;
+        margin: 0 auto 50px auto;
+    }
+
+    .fact-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin: 0 20px;
+    }
+
+    .sponsors-image {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        margin: 0 20px 220px 20px;
+    }
+
+    .footer-content p {
+        text-align: center;
+        padding: 50px;
+        font-size: 1rem;
+    }
+
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+
+    #button-batch {
+        display: none;
+    }
+}
