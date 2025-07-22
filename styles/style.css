@@ -131,7 +131,7 @@ ul li a {
 
 .features{
     max-width: 1440px;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 130px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* align-items: flex-start; */
@@ -197,8 +197,8 @@ ul li a {
     margin-bottom: 0;
     padding: 45px 40px;
     position: relative;
-    top:-110px;
-    left: -80px;
+    margin-left: -80px;
+    margin-top: -110px;
 }
 
 #button-batch #batch-year{
