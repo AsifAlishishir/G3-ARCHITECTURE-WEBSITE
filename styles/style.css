@@ -100,6 +100,7 @@ ul li a {
 
 .banner-image img {
     max-width: 100%;
+    animation: banner-animation .7s ease-out 1 forwards;
 }
 
 /* QUICK LIST STYLES */
@@ -119,7 +120,7 @@ ul li a {
     gap: 24px;
 }
 
-.quick-list-images img{
+.quick-list-images img {
     width: 100%;
 }
 
@@ -342,6 +343,21 @@ ul li a {
     color: rgba(66, 66, 66, 1);
 }
 
+@keyframes banner-animation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 @media screen and (max-width: 576px) {
     nav {
         row-gap: 30px;
@@ -373,10 +389,11 @@ ul li a {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .quick-list-content{
+    .quick-list-content {
         text-align: center;
     }
-    .quick-list-content h1{
+
+    .quick-list-content h1 {
         font-size: 2.2rem;
     }
 
@@ -390,7 +407,7 @@ ul li a {
         gap: 20px;
     }
 
-    .sponsors-content{
+    .sponsors-content {
         margin: 0 10px 50px 10px;
     }
 
@@ -416,13 +433,13 @@ ul li a {
         row-gap: 50px;
     }
 
-    #button-batch{
+    #button-batch {
         display: none;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
-    
+
     nav {
         margin: 0 20px 100px 20px;
     }
@@ -443,7 +460,7 @@ ul li a {
         font-size: 3.1rem;
     }
 
-    
+
     .banner-content p {
         font-size: .9rem;
     }
